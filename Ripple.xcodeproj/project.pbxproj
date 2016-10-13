@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEE91DAF14B5000B225F /* AppDelegate.swift */; };
+		47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEEB1DAF14B5000B225F /* ViewController.swift */; };
+		47ADEEEF1DAF14B5000B225F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEED1DAF14B5000B225F /* Main.storyboard */; };
+		47ADEEF11DAF14B5000B225F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEF01DAF14B5000B225F /* Assets.xcassets */; };
+		47ADEEF41DAF14B5000B225F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */; };
+		47ADEEFF1DAF14B5000B225F /* RippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEFE1DAF14B5000B225F /* RippleTests.swift */; };
+		47ADEF0A1DAF14B5000B225F /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEF091DAF14B5000B225F /* RippleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47ADEEFB1DAF14B5000B225F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47ADEEDE1DAF14B4000B225F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47ADEEE51DAF14B4000B225F;
+			remoteInfo = Ripple;
+		};
+		47ADEF061DAF14B5000B225F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47ADEEDE1DAF14B4000B225F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47ADEEE51DAF14B4000B225F;
+			remoteInfo = Ripple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47ADEEE61DAF14B5000B225F /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEEE91DAF14B5000B225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47ADEEEB1DAF14B5000B225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47ADEEEE1DAF14B5000B225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47ADEEF01DAF14B5000B225F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47ADEEF31DAF14B5000B225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47ADEEF51DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEEFE1DAF14B5000B225F /* RippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTests.swift; sourceTree = "<group>"; };
+		47ADEF001DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ADEF051DAF14B5000B225F /* RippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEF091DAF14B5000B225F /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUITests.swift; sourceTree = "<group>"; };
+		47ADEF0B1DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47ADEEE31DAF14B4000B225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEEF71DAF14B5000B225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEF021DAF14B5000B225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47ADEEDD1DAF14B4000B225F = {
+			isa = PBXGroup;
+			children = (
+				47ADEEE81DAF14B5000B225F /* Ripple */,
+				47ADEEFD1DAF14B5000B225F /* RippleTests */,
+				47ADEF081DAF14B5000B225F /* RippleUITests */,
+				47ADEEE71DAF14B5000B225F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47ADEEE71DAF14B5000B225F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47ADEEE61DAF14B5000B225F /* Ripple.app */,
+				47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */,
+				47ADEF051DAF14B5000B225F /* RippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47ADEEE81DAF14B5000B225F /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				47ADEEE91DAF14B5000B225F /* AppDelegate.swift */,
+				47ADEEEB1DAF14B5000B225F /* ViewController.swift */,
+				47ADEEED1DAF14B5000B225F /* Main.storyboard */,
+				47ADEEF01DAF14B5000B225F /* Assets.xcassets */,
+				47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */,
+				47ADEEF51DAF14B5000B225F /* Info.plist */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		47ADEEFD1DAF14B5000B225F /* RippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47ADEEFE1DAF14B5000B225F /* RippleTests.swift */,
+				47ADEF001DAF14B5000B225F /* Info.plist */,
+			);
+			path = RippleTests;
+			sourceTree = "<group>";
+		};
+		47ADEF081DAF14B5000B225F /* RippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47ADEF091DAF14B5000B225F /* RippleUITests.swift */,
+				47ADEF0B1DAF14B5000B225F /* Info.plist */,
+			);
+			path = RippleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47ADEEE51DAF14B4000B225F /* Ripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Ripple" */;
+			buildPhases = (
+				47ADEEE21DAF14B4000B225F /* Sources */,
+				47ADEEE31DAF14B4000B225F /* Frameworks */,
+				47ADEEE41DAF14B4000B225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ripple;
+			productName = Ripple;
+			productReference = 47ADEEE61DAF14B5000B225F /* Ripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47ADEEF91DAF14B5000B225F /* RippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleTests" */;
+			buildPhases = (
+				47ADEEF61DAF14B5000B225F /* Sources */,
+				47ADEEF71DAF14B5000B225F /* Frameworks */,
+				47ADEEF81DAF14B5000B225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47ADEEFC1DAF14B5000B225F /* PBXTargetDependency */,
+			);
+			name = RippleTests;
+			productName = RippleTests;
+			productReference = 47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47ADEF041DAF14B5000B225F /* RippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleUITests" */;
+			buildPhases = (
+				47ADEF011DAF14B5000B225F /* Sources */,
+				47ADEF021DAF14B5000B225F /* Frameworks */,
+				47ADEF031DAF14B5000B225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47ADEF071DAF14B5000B225F /* PBXTargetDependency */,
+			);
+			name = RippleUITests;
+			productName = RippleUITests;
+			productReference = 47ADEF051DAF14B5000B225F /* RippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47ADEEDE1DAF14B4000B225F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jean-Étienne";
+				TargetAttributes = {
+					47ADEEE51DAF14B4000B225F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N44EJ7YB22;
+						ProvisioningStyle = Automatic;
+					};
+					47ADEEF91DAF14B5000B225F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N44EJ7YB22;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47ADEEE51DAF14B4000B225F;
+					};
+					47ADEF041DAF14B5000B225F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N44EJ7YB22;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47ADEEE51DAF14B4000B225F;
+					};
+				};
+			};
+			buildConfigurationList = 47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Ripple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47ADEEDD1DAF14B4000B225F;
+			productRefGroup = 47ADEEE71DAF14B5000B225F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47ADEEE51DAF14B4000B225F /* Ripple */,
+				47ADEEF91DAF14B5000B225F /* RippleTests */,
+				47ADEF041DAF14B5000B225F /* RippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47ADEEE41DAF14B4000B225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADEEF41DAF14B5000B225F /* LaunchScreen.storyboard in Resources */,
+				47ADEEF11DAF14B5000B225F /* Assets.xcassets in Resources */,
+				47ADEEEF1DAF14B5000B225F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEEF81DAF14B5000B225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEF031DAF14B5000B225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47ADEEE21DAF14B4000B225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */,
+				47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEEF61DAF14B5000B225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADEEFF1DAF14B5000B225F /* RippleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ADEF011DAF14B5000B225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADEF0A1DAF14B5000B225F /* RippleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47ADEEFC1DAF14B5000B225F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47ADEEE51DAF14B4000B225F /* Ripple */;
+			targetProxy = 47ADEEFB1DAF14B5000B225F /* PBXContainerItemProxy */;
+		};
+		47ADEF071DAF14B5000B225F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47ADEEE51DAF14B4000B225F /* Ripple */;
+			targetProxy = 47ADEF061DAF14B5000B225F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47ADEEED1DAF14B5000B225F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ADEEEE1DAF14B5000B225F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ADEEF31DAF14B5000B225F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47ADEF0C1DAF14B5000B225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47ADEF0D1DAF14B5000B225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47ADEF0F1DAF14B5000B225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Ripple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Ripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		47ADEF101DAF14B5000B225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = Ripple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Ripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		47ADEF121DAF14B5000B225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = RippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+			};
+			name = Debug;
+		};
+		47ADEF131DAF14B5000B225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = RippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+			};
+			name = Release;
+		};
+		47ADEF151DAF14B5000B225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = RippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ripple;
+			};
+			name = Debug;
+		};
+		47ADEF161DAF14B5000B225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = RippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ripple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADEF0C1DAF14B5000B225F /* Debug */,
+				47ADEF0D1DAF14B5000B225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADEF0F1DAF14B5000B225F /* Debug */,
+				47ADEF101DAF14B5000B225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADEF121DAF14B5000B225F /* Debug */,
+				47ADEF131DAF14B5000B225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADEF151DAF14B5000B225F /* Debug */,
+				47ADEF161DAF14B5000B225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47ADEEDE1DAF14B4000B225F /* Project object */;
+}
