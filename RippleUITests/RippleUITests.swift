@@ -2,7 +2,7 @@
 //  RippleUITests.swift
 //  RippleUITests
 //
-//  Created by Jet Parrot on 13/10/2016.
+//  Created by Jean-Étienne Parrot on 13/10/2016.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.
 //
 
