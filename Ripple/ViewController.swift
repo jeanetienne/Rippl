@@ -10,16 +10,62 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var rippleView: Ripple!
+
+    @IBOutlet var imageView: UIImageView!
+
+    var soundRecorder: SoundRecorder?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        do {
+            try soundRecorder = SoundRecorder.init(withDelegate: self)
+            soundRecorder?.requestRecordPermission()
+        } catch {
+            print("❌ Could not create the Sound Recorder: \(error)")
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func recordButtonDidTouchUpInside(_ sender: AnyObject, forEvent event: UIEvent) {
+        if let soundRecorder = soundRecorder {
+            do {
+                try soundRecorder.startRecording()
+            } catch SoundRecorderError.RecordPermissionNotGranted {
+                print("❌ Permission to record not granted")
+            } catch {
+                print("❌ Can't record: Unknown Error")
+            }
+        }
     }
-
+    
+    @IBAction func animateButtonDidTouchUpInside(_ sender: AnyObject, forEvent event: UIEvent) {
+        rippleView.animateImpact(strength: 2.5, duration: 1.5)
+    }
 
 }
 
+extension ViewController: SoundRecorderDelegate {
+
+    func soundRecorder(_ soundRecorder: SoundRecorder, didUpdateAveragePower averagePower: Float, peakPower: Float) {
+
+        // Gaussian filter
+        let lowerBound: Float = -40.0
+        let upperBound: Float = -5.0
+
+        var boundedAveragePower = min(averagePower, upperBound)
+        boundedAveragePower = max(averagePower, lowerBound)
+
+        let normalisedAveragePower = ((boundedAveragePower + abs(lowerBound)) / abs(upperBound - lowerBound))
+
+        let gain: Float = 2.0
+        let minimumOffset: Float = 1.0
+
+        rippleView.animateGain(value: CGFloat(normalisedAveragePower * gain + minimumOffset))
+    }
+
+    func soundRecorderDidFinishRecording(_ soundRecorder: SoundRecorder) {
+        print("🎙 Recording finished")
+    }
+
+}

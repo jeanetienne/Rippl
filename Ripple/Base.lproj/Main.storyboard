@@ -1,26 +1,101 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjQ-YQ-NcY" customClass="Ripple" customModule="Ripple" customModuleProvider="target">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UjQ-YQ-NcY" secondAttribute="height" multiplier="1:1" id="04I-8d-yvi"/>
+                                    <constraint firstAttribute="height" constant="100" id="kqE-4B-f6H"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.69999999999999996" green="0.89999999999999991" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.54000000000000004" green="0.77999999999999992" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNQ-rm-gJP">
+                                <rect key="frame" x="16" y="410" width="288" height="50"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PnQ-vp-UzJ"/>
+                                </constraints>
+                                <state key="normal" title="Animate Impact Ripple"/>
+                                <connections>
+                                    <action selector="animateButtonDidTouchUpInside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zns-6P-H0v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwW-ba-hli">
+                                <rect key="frame" x="16" y="352" width="288" height="50"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jO2-eN-5hi"/>
+                                </constraints>
+                                <state key="normal" title="Sound Recording"/>
+                                <connections>
+                                    <action selector="recordButtonDidTouchUpInside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5lb-SU-am0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic" translatesAutoresizingMaskIntoConstraints="NO" id="Cy4-8p-vwb">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="GII-jR-CYG"/>
+                                    <constraint firstAttribute="width" constant="100" id="ljR-6s-hTl"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UjQ-YQ-NcY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bc-oY-onl"/>
+                            <constraint firstItem="UjQ-YQ-NcY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HkZ-oi-3uF"/>
+                            <constraint firstItem="BNQ-rm-gJP" firstAttribute="top" secondItem="IwW-ba-hli" secondAttribute="bottom" constant="8" id="SVm-xd-3Si"/>
+                            <constraint firstItem="IwW-ba-hli" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YoR-Rp-Y7G"/>
+                            <constraint firstItem="BNQ-rm-gJP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Z5k-n5-WEh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BNQ-rm-gJP" secondAttribute="bottom" constant="20" id="cyA-36-YTG"/>
+                            <constraint firstItem="Cy4-8p-vwb" firstAttribute="centerX" secondItem="UjQ-YQ-NcY" secondAttribute="centerX" id="i3z-AE-ytu"/>
+                            <constraint firstItem="IwW-ba-hli" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="onr-rp-a8Z"/>
+                            <constraint firstItem="BNQ-rm-gJP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="poC-zS-OgQ"/>
+                            <constraint firstItem="Cy4-8p-vwb" firstAttribute="centerY" secondItem="UjQ-YQ-NcY" secondAttribute="centerY" id="vAF-Os-oKZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Cy4-8p-vwb" id="YSe-AS-36C"/>
+                        <outlet property="rippleView" destination="UjQ-YQ-NcY" id="kPr-xz-uQQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mic" width="100" height="100"/>
+    </resources>
 </document>
