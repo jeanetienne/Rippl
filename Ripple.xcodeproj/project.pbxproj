@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		477113261DAF35D500EB499B /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477113251DAF35D500EB499B /* Ripple.swift */; };
 		47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEE91DAF14B5000B225F /* AppDelegate.swift */; };
 		47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEEB1DAF14B5000B225F /* ViewController.swift */; };
 		47ADEEEF1DAF14B5000B225F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEED1DAF14B5000B225F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		477113251DAF35D500EB499B /* Ripple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
 		47ADEEE61DAF14B5000B225F /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47ADEEE91DAF14B5000B225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47ADEEEB1DAF14B5000B225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		477113241DAF35C600EB499B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				477113251DAF35D500EB499B /* Ripple.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		47ADEEDD1DAF14B4000B225F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 			children = (
 				47ADEEE91DAF14B5000B225F /* AppDelegate.swift */,
 				47ADEEEB1DAF14B5000B225F /* ViewController.swift */,
+				477113241DAF35C600EB499B /* Views */,
 				47ADEEED1DAF14B5000B225F /* Main.storyboard */,
 				47ADEEF01DAF14B5000B225F /* Assets.xcassets */,
 				47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */,
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477113261DAF35D500EB499B /* Ripple.swift in Sources */,
 				47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */,
 				47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */,
 			);
