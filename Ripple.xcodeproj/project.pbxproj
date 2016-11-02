@@ -514,6 +514,7 @@
 				47ADEF101DAF14B5000B225F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				47ADEF131DAF14B5000B225F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				47ADEF161DAF14B5000B225F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
