@@ -15,6 +15,7 @@
 		47ADEEF41DAF14B5000B225F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */; };
 		47ADEEFF1DAF14B5000B225F /* RippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEFE1DAF14B5000B225F /* RippleTests.swift */; };
 		47ADEF0A1DAF14B5000B225F /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEF091DAF14B5000B225F /* RippleUITests.swift */; };
+		F7114A3A1DB8C3700048DBDE /* SoundRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7114A391DB8C3700048DBDE /* SoundRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		47ADEF051DAF14B5000B225F /* RippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47ADEF091DAF14B5000B225F /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUITests.swift; sourceTree = "<group>"; };
 		47ADEF0B1DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7114A391DB8C3700048DBDE /* SoundRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				47ADEEE91DAF14B5000B225F /* AppDelegate.swift */,
 				47ADEEEB1DAF14B5000B225F /* ViewController.swift */,
+				F7114A391DB8C3700048DBDE /* SoundRecorder.swift */,
 				477113241DAF35C600EB499B /* Views */,
 				47ADEEED1DAF14B5000B225F /* Main.storyboard */,
 				47ADEEF01DAF14B5000B225F /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 			files = (
 				477113261DAF35D500EB499B /* Ripple.swift in Sources */,
 				47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */,
+				F7114A3A1DB8C3700048DBDE /* SoundRecorder.swift in Sources */,
 				47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
