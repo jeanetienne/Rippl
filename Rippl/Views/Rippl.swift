@@ -1,6 +1,6 @@
 //
-//  Ripple.swift
-//  Ripple
+//  Rippl.swift
+//  Rippl
 //
 //  Created by Jean-Étienne Parrot on 13/10/2016.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class Ripple: UIView {
+class Rippl: UIView {
 
     @IBInspectable public var fillColor: UIColor = UIColor.black.withAlphaComponent(0.3) {
         didSet {
@@ -58,14 +58,14 @@ class Ripple: UIView {
     }
 
     public func animateImpact(strength: CGFloat, duration: CFTimeInterval) {
-        let rippleLayer = Ripple.copy(layer: bezierLayer)
-        rippleLayer.zPosition = 0
-        bezierLayer.addSublayer(rippleLayer)
+        let ripplLayer = Rippl.copy(layer: bezierLayer)
+        ripplLayer.zPosition = 0
+        bezierLayer.addSublayer(ripplLayer)
 
-        animateImpactGrowth(layer: rippleLayer, strength: strength, duration: duration)
-        animateImpactOpacity(layer: rippleLayer, opacity: 0, duration: duration)
+        animateImpactGrowth(layer: ripplLayer, strength: strength, duration: duration)
+        animateImpactOpacity(layer: ripplLayer, opacity: 0, duration: duration)
 
-        Ripple.remove(layer: rippleLayer, afterDuration: duration + 0.1)
+        Rippl.remove(layer: ripplLayer, afterDuration: duration + 0.1)
     }
 
     public func animateGain(value: CGFloat) {
@@ -94,7 +94,7 @@ class Ripple: UIView {
                                        dy: (bounds.height - (bounds.height * strength)) / 2)
         let bezierPath = UIBezierPath.init(ovalIn: newBounds)
 
-        layer.add(Ripple.basicAnimation(keyPath: "path",
+        layer.add(Rippl.basicAnimation(keyPath: "path",
                                         value: bezierPath.cgPath,
                                         duration: duration,
                                         timingFunction: kCAMediaTimingFunctionEaseOut),
@@ -102,13 +102,13 @@ class Ripple: UIView {
     }
     
     private func animateImpactOpacity(layer: CAShapeLayer, opacity: CGFloat, duration: CFTimeInterval) {
-        layer.add(Ripple.basicAnimation(keyPath: "fillColor",
+        layer.add(Rippl.basicAnimation(keyPath: "fillColor",
                                         value: fillColor.withAlphaComponent(opacity).cgColor,
                                         duration: duration,
                                         timingFunction: kCAMediaTimingFunctionLinear),
                   forKey: "impactFillColor")
 
-        layer.add(Ripple.basicAnimation(keyPath: "strokeColor",
+        layer.add(Rippl.basicAnimation(keyPath: "strokeColor",
                                         value: borderColor.withAlphaComponent(opacity).cgColor,
                                         duration: duration,
                                         timingFunction: kCAMediaTimingFunctionLinear),
@@ -128,13 +128,13 @@ class Ripple: UIView {
     }
 
     private static func copy(layer: CAShapeLayer) -> CAShapeLayer {
-        let rippleLayer = CAShapeLayer()
-        rippleLayer.path = layer.path
-        rippleLayer.fillColor = layer.fillColor
-        rippleLayer.strokeColor = layer.strokeColor
-        rippleLayer.lineWidth = layer.lineWidth
+        let ripplLayer = CAShapeLayer()
+        ripplLayer.path = layer.path
+        ripplLayer.fillColor = layer.fillColor
+        ripplLayer.strokeColor = layer.strokeColor
+        ripplLayer.lineWidth = layer.lineWidth
 
-        return rippleLayer
+        return ripplLayer
     }
 
     private static func remove(layer: CALayer, afterDuration duration: CFTimeInterval) {

@@ -1,6 +1,6 @@
 //
 //  VoiceRecorder.swift
-//  Ripple
+//  Rippl
 //
 //  Created by Jean-Étienne on 20/10/16.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.

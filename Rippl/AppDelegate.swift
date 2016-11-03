@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Ripple
+//  Rippl
 //
 //  Created by Jean-Étienne Parrot on 13/10/2016.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.
