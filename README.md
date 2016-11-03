@@ -11,6 +11,14 @@ A Rippl is a simple UIView sublcass which draws an ellipse (most probably a circ
 ![Impact Ripple animation](https://raw.githubusercontent.com/jeanetienne/rippl/master/impact.gif)
 ![Gain animation](https://raw.githubusercontent.com/jeanetienne/rippl/master/gain.gif)
 
+## Installation
+
+### Cocoapods
+Add `pod 'Ripple'` to your Podfile.
+
+### Carthage
+Not yet supported.
+
 ## Features
 Rippl is IBDesignable and IBInspectable, making it very easy to use in Interface Builder.
 
