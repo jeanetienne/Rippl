@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,17 +14,17 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rippl" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjQ-YQ-NcY" customClass="Ripple" customModule="Ripple" customModuleProvider="target">
-                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjQ-YQ-NcY" customClass="Rippl" customModule="Rippl" customModuleProvider="target">
+                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="UjQ-YQ-NcY" secondAttribute="height" multiplier="1:1" id="04I-8d-yvi"/>
                                     <constraint firstAttribute="height" constant="100" id="kqE-4B-f6H"/>
@@ -42,18 +42,18 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNQ-rm-gJP">
-                                <rect key="frame" x="16" y="410" width="288" height="50"/>
+                                <rect key="frame" x="16" y="597" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="PnQ-vp-UzJ"/>
                                 </constraints>
-                                <state key="normal" title="Animate Impact Ripple"/>
+                                <state key="normal" title="Animate Impact Rippl"/>
                                 <connections>
                                     <action selector="animateButtonDidTouchUpInside:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zns-6P-H0v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwW-ba-hli">
-                                <rect key="frame" x="16" y="352" width="288" height="50"/>
+                                <rect key="frame" x="16" y="539" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="jO2-eN-5hi"/>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic" translatesAutoresizingMaskIntoConstraints="NO" id="Cy4-8p-vwb">
-                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="GII-jR-CYG"/>
                                     <constraint firstAttribute="width" constant="100" id="ljR-6s-hTl"/>
@@ -87,7 +87,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="Cy4-8p-vwb" id="YSe-AS-36C"/>
-                        <outlet property="rippleView" destination="UjQ-YQ-NcY" id="kPr-xz-uQQ"/>
+                        <outlet property="ripplView" destination="UjQ-YQ-NcY" id="kPr-xz-uQQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,20 +1,21 @@
+
 Pod::Spec.new do |s|
 
-  s.name             = "Ripple"
-  s.version          = "0.0.1"
+  s.name             = "Rippl"
+  s.version          = "0.0.2"
   s.summary          = "UI element showing a growing circle, reminiscent of a ripple in a pond."
 
   s.description      = <<-DESC
-                       A Ripple is a simple UIView sublcass which draws an ellipse
+                       A Rippl is a simple UIView sublcass which draws an ellipse
                        (most probably a circle) within its frame and has 2 built-in
                        animations. You can call an "impact ripple" to create an
-                       additional growing ellipse behinf the original one, or you
+                       additional growing ellipse behind the original one, or you
                        can call a "gain" animation that grows the original view
                        according to the value of the gain.
                        DESC
 
-  s.homepage         = "https://github.com/jeanetienne/ripple"
-  s.screenshots      = "https://raw.githubusercontent.com/jeanetienne/ripple/master/impact.gif", "https://raw.githubusercontent.com/jeanetienne/ripple/master/gain.gif"
+  s.homepage         = "https://github.com/jeanetienne/rippl"
+  s.screenshots      = "https://raw.githubusercontent.com/jeanetienne/rippl/master/impact.gif", "https://raw.githubusercontent.com/jeanetienne/rippl/master/gain.gif"
 
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Jean-Étienne" => "cocoapods@jeanetienne.net" }
@@ -22,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, "8.0"
 
-  s.source           = { :git => "https://github.com/jeanetienne/ripple.git", :tag => "#{s.version}" }
-  s.source_files     = "Ripple/Views/Ripple.swift"
+  s.source           = { :git => "https://github.com/jeanetienne/rippl.git", :tag => "#{s.version}" }
+  s.source_files     = "Rippl/Views/Rippl.swift"
 
 end

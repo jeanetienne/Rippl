@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		477113261DAF35D500EB499B /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477113251DAF35D500EB499B /* Ripple.swift */; };
+		477113261DAF35D500EB499B /* Rippl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477113251DAF35D500EB499B /* Rippl.swift */; };
 		47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEE91DAF14B5000B225F /* AppDelegate.swift */; };
 		47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEEB1DAF14B5000B225F /* ViewController.swift */; };
 		47ADEEEF1DAF14B5000B225F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEED1DAF14B5000B225F /* Main.storyboard */; };
@@ -36,21 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		477113251DAF35D500EB499B /* Ripple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
-		47ADEEE61DAF14B5000B225F /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ADEEE91DAF14B5000B225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47ADEEEB1DAF14B5000B225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		477113251DAF35D500EB499B /* Rippl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Rippl.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47ADEEE61DAF14B5000B225F /* Rippl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rippl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEEE91DAF14B5000B225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		47ADEEEB1DAF14B5000B225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEEEE1DAF14B5000B225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47ADEEF01DAF14B5000B225F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47ADEEF31DAF14B5000B225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47ADEEF51DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ADEEFE1DAF14B5000B225F /* RippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTests.swift; sourceTree = "<group>"; };
+		47ADEEFA1DAF14B5000B225F /* RipplTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RipplTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEEFE1DAF14B5000B225F /* RippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RippleTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEF001DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47ADEF051DAF14B5000B225F /* RippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ADEF091DAF14B5000B225F /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUITests.swift; sourceTree = "<group>"; };
+		47ADEF051DAF14B5000B225F /* RipplUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RipplUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADEF091DAF14B5000B225F /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RippleUITests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEF0B1DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7114A391DB8C3700048DBDE /* SoundRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRecorder.swift; sourceTree = "<group>"; };
+		F7114A391DB8C3700048DBDE /* SoundRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SoundRecorder.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		477113241DAF35C600EB499B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				477113251DAF35D500EB499B /* Ripple.swift */,
+				477113251DAF35D500EB499B /* Rippl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 		47ADEEDD1DAF14B4000B225F = {
 			isa = PBXGroup;
 			children = (
-				47ADEEE81DAF14B5000B225F /* Ripple */,
-				47ADEEFD1DAF14B5000B225F /* RippleTests */,
-				47ADEF081DAF14B5000B225F /* RippleUITests */,
+				47ADEEE81DAF14B5000B225F /* Rippl */,
+				47ADEEFD1DAF14B5000B225F /* RipplTests */,
+				47ADEF081DAF14B5000B225F /* RipplUITests */,
 				47ADEEE71DAF14B5000B225F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,14 +99,14 @@
 		47ADEEE71DAF14B5000B225F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47ADEEE61DAF14B5000B225F /* Ripple.app */,
-				47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */,
-				47ADEF051DAF14B5000B225F /* RippleUITests.xctest */,
+				47ADEEE61DAF14B5000B225F /* Rippl.app */,
+				47ADEEFA1DAF14B5000B225F /* RipplTests.xctest */,
+				47ADEF051DAF14B5000B225F /* RipplUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47ADEEE81DAF14B5000B225F /* Ripple */ = {
+		47ADEEE81DAF14B5000B225F /* Rippl */ = {
 			isa = PBXGroup;
 			children = (
 				47ADEEE91DAF14B5000B225F /* AppDelegate.swift */,
@@ -118,33 +118,33 @@
 				47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */,
 				47ADEEF51DAF14B5000B225F /* Info.plist */,
 			);
-			path = Ripple;
+			path = Rippl;
 			sourceTree = "<group>";
 		};
-		47ADEEFD1DAF14B5000B225F /* RippleTests */ = {
+		47ADEEFD1DAF14B5000B225F /* RipplTests */ = {
 			isa = PBXGroup;
 			children = (
 				47ADEEFE1DAF14B5000B225F /* RippleTests.swift */,
 				47ADEF001DAF14B5000B225F /* Info.plist */,
 			);
-			path = RippleTests;
+			path = RipplTests;
 			sourceTree = "<group>";
 		};
-		47ADEF081DAF14B5000B225F /* RippleUITests */ = {
+		47ADEF081DAF14B5000B225F /* RipplUITests */ = {
 			isa = PBXGroup;
 			children = (
 				47ADEF091DAF14B5000B225F /* RippleUITests.swift */,
 				47ADEF0B1DAF14B5000B225F /* Info.plist */,
 			);
-			path = RippleUITests;
+			path = RipplUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47ADEEE51DAF14B4000B225F /* Ripple */ = {
+		47ADEEE51DAF14B4000B225F /* Rippl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Ripple" */;
+			buildConfigurationList = 47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Rippl" */;
 			buildPhases = (
 				47ADEEE21DAF14B4000B225F /* Sources */,
 				47ADEEE31DAF14B4000B225F /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = Ripple;
+			name = Rippl;
 			productName = Ripple;
-			productReference = 47ADEEE61DAF14B5000B225F /* Ripple.app */;
+			productReference = 47ADEEE61DAF14B5000B225F /* Rippl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47ADEEF91DAF14B5000B225F /* RippleTests */ = {
+		47ADEEF91DAF14B5000B225F /* RipplTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleTests" */;
+			buildConfigurationList = 47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RipplTests" */;
 			buildPhases = (
 				47ADEEF61DAF14B5000B225F /* Sources */,
 				47ADEEF71DAF14B5000B225F /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				47ADEEFC1DAF14B5000B225F /* PBXTargetDependency */,
 			);
-			name = RippleTests;
+			name = RipplTests;
 			productName = RippleTests;
-			productReference = 47ADEEFA1DAF14B5000B225F /* RippleTests.xctest */;
+			productReference = 47ADEEFA1DAF14B5000B225F /* RipplTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		47ADEF041DAF14B5000B225F /* RippleUITests */ = {
+		47ADEF041DAF14B5000B225F /* RipplUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleUITests" */;
+			buildConfigurationList = 47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RipplUITests" */;
 			buildPhases = (
 				47ADEF011DAF14B5000B225F /* Sources */,
 				47ADEF021DAF14B5000B225F /* Frameworks */,
@@ -190,9 +190,9 @@
 			dependencies = (
 				47ADEF071DAF14B5000B225F /* PBXTargetDependency */,
 			);
-			name = RippleUITests;
+			name = RipplUITests;
 			productName = RippleUITests;
-			productReference = 47ADEF051DAF14B5000B225F /* RippleUITests.xctest */;
+			productReference = 47ADEF051DAF14B5000B225F /* RipplUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Ripple" */;
+			buildConfigurationList = 47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Rippl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47ADEEE51DAF14B4000B225F /* Ripple */,
-				47ADEEF91DAF14B5000B225F /* RippleTests */,
-				47ADEF041DAF14B5000B225F /* RippleUITests */,
+				47ADEEE51DAF14B4000B225F /* Rippl */,
+				47ADEEF91DAF14B5000B225F /* RipplTests */,
+				47ADEF041DAF14B5000B225F /* RipplUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477113261DAF35D500EB499B /* Ripple.swift in Sources */,
+				477113261DAF35D500EB499B /* Rippl.swift in Sources */,
 				47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */,
 				F7114A3A1DB8C3700048DBDE /* SoundRecorder.swift in Sources */,
 				47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */,
@@ -304,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		47ADEEFC1DAF14B5000B225F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47ADEEE51DAF14B4000B225F /* Ripple */;
+			target = 47ADEEE51DAF14B4000B225F /* Rippl */;
 			targetProxy = 47ADEEFB1DAF14B5000B225F /* PBXContainerItemProxy */;
 		};
 		47ADEF071DAF14B5000B225F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47ADEEE51DAF14B4000B225F /* Ripple */;
+			target = 47ADEEE51DAF14B4000B225F /* Rippl */;
 			targetProxy = 47ADEF061DAF14B5000B225F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,9 +432,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = Ripple/Info.plist;
+				INFOPLIST_FILE = Rippl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Ripple;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Rippl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -445,9 +445,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = Ripple/Info.plist;
+				INFOPLIST_FILE = Rippl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Ripple;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.Rippl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -459,12 +459,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = RippleTests/Info.plist;
+				INFOPLIST_FILE = RipplTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rippl.app/Rippl";
 			};
 			name = Debug;
 		};
@@ -474,12 +474,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = RippleTests/Info.plist;
+				INFOPLIST_FILE = RipplTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rippl.app/Rippl";
 			};
 			name = Release;
 		};
@@ -488,12 +488,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = RippleUITests/Info.plist;
+				INFOPLIST_FILE = RipplUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Ripple;
+				TEST_TARGET_NAME = Rippl;
 			};
 			name = Debug;
 		};
@@ -502,19 +502,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
-				INFOPLIST_FILE = RippleUITests/Info.plist;
+				INFOPLIST_FILE = RipplUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RippleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Ripple;
+				TEST_TARGET_NAME = Rippl;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Ripple" */ = {
+		47ADEEE11DAF14B4000B225F /* Build configuration list for PBXProject "Rippl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47ADEF0C1DAF14B5000B225F /* Debug */,
@@ -523,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Ripple" */ = {
+		47ADEF0E1DAF14B5000B225F /* Build configuration list for PBXNativeTarget "Rippl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47ADEF0F1DAF14B5000B225F /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleTests" */ = {
+		47ADEF111DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RipplTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47ADEF121DAF14B5000B225F /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RippleUITests" */ = {
+		47ADEF141DAF14B5000B225F /* Build configuration list for PBXNativeTarget "RipplUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47ADEF151DAF14B5000B225F /* Debug */,
