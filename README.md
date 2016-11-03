@@ -1,5 +1,9 @@
 # Rippl
 
+[![Version](https://img.shields.io/cocoapods/v/Rippl.svg?style=flat)](http://cocoapods.org/pods/Rippl)
+[![License](https://img.shields.io/cocoapods/l/Rippl.svg?style=flat)](http://cocoapods.org/pods/Rippl)
+[![Platform](https://img.shields.io/cocoapods/p/Rippl.svg?style=flat)](http://cocoapods.org/pods/Rippl)
+
 UI element showing a growing circle, reminiscent of a ripple in a pond.
 
 A Rippl is a simple UIView sublcass which draws an ellipse (most probably a circle) within its frame and has 2 built-in animations. You can call an "impact ripple" to create an additional growing ellipse behind the original one, or you can call a "gain" animation that grows the original view according to the value of the gain.
