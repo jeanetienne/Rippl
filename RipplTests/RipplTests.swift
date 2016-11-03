@@ -1,15 +1,15 @@
 //
-//  RippleTests.swift
-//  RippleTests
+//  RipplTests.swift
+//  RipplTests
 //
 //  Created by Jean-Étienne Parrot on 13/10/2016.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.
 //
 
 import XCTest
-@testable import Ripple
+@testable import Rippl
 
-class RippleTests: XCTestCase {
+class RipplTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

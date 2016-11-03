@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Ripple
+//  Rippl
 //
 //  Created by Jean-Étienne Parrot on 13/10/2016.
 //  Copyright © 2016 Jean-Étienne. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var rippleView: Ripple!
+    @IBOutlet var ripplView: Rippl!
 
     @IBOutlet var imageView: UIImageView!
 
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func animateButtonDidTouchUpInside(_ sender: AnyObject, forEvent event: UIEvent) {
-        rippleView.animateImpact(strength: 2.5, duration: 1.5)
+        ripplView.animateImpact(strength: 2.5, duration: 1.5)
     }
 
 }
@@ -61,7 +61,7 @@ extension ViewController: SoundRecorderDelegate {
         let gain: Float = 2.0
         let minimumOffset: Float = 1.0
 
-        rippleView.animateGain(value: CGFloat(normalisedAveragePower * gain + minimumOffset))
+        ripplView.animateGain(value: CGFloat(normalisedAveragePower * gain + minimumOffset))
     }
 
     func soundRecorderDidFinishRecording(_ soundRecorder: SoundRecorder) {
