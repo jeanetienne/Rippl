@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		477113261DAF35D500EB499B /* Rippl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477113251DAF35D500EB499B /* Rippl.swift */; };
 		47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEE91DAF14B5000B225F /* AppDelegate.swift */; };
 		47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEEB1DAF14B5000B225F /* ViewController.swift */; };
 		47ADEEEF1DAF14B5000B225F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEED1DAF14B5000B225F /* Main.storyboard */; };
 		47ADEEF11DAF14B5000B225F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEF01DAF14B5000B225F /* Assets.xcassets */; };
 		47ADEEF41DAF14B5000B225F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */; };
-		47ADEEFF1DAF14B5000B225F /* RippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEEFE1DAF14B5000B225F /* RippleTests.swift */; };
-		47ADEF0A1DAF14B5000B225F /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADEF091DAF14B5000B225F /* RippleUITests.swift */; };
 		F7114A3A1DB8C3700048DBDE /* SoundRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7114A391DB8C3700048DBDE /* SoundRecorder.swift */; };
+		F7B8A7171E0638FF003A1EE7 /* RipplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8A7161E0638FF003A1EE7 /* RipplTests.swift */; };
+		F7B8A7191E06390D003A1EE7 /* RipplUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8A7181E06390D003A1EE7 /* RipplUITests.swift */; };
+		F7B8A7281E06394F003A1EE7 /* Rippl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B8A71F1E06394F003A1EE7 /* Rippl.framework */; };
+		F7B8A72D1E06394F003A1EE7 /* Rippl_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8A72C1E06394F003A1EE7 /* Rippl_iOSTests.swift */; };
+		F7B8A72F1E06394F003A1EE7 /* Rippl-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B8A7211E06394F003A1EE7 /* Rippl-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B8A7371E063969003A1EE7 /* Rippl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8A7361E063969003A1EE7 /* Rippl.swift */; };
+		F7B8A7381E0639BD003A1EE7 /* Rippl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B8A7361E063969003A1EE7 /* Rippl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +37,16 @@
 			remoteGlobalIDString = 47ADEEE51DAF14B4000B225F;
 			remoteInfo = Ripple;
 		};
+		F7B8A7291E06394F003A1EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47ADEEDE1DAF14B4000B225F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B8A71E1E06394F003A1EE7;
+			remoteInfo = "Rippl-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		477113251DAF35D500EB499B /* Rippl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Rippl.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEEE61DAF14B5000B225F /* Rippl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rippl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47ADEEE91DAF14B5000B225F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEEEB1DAF14B5000B225F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -45,12 +55,19 @@
 		47ADEEF31DAF14B5000B225F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47ADEEF51DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47ADEEFA1DAF14B5000B225F /* RipplTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RipplTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ADEEFE1DAF14B5000B225F /* RippleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RippleTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEF001DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47ADEF051DAF14B5000B225F /* RipplUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RipplUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ADEF091DAF14B5000B225F /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RippleUITests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		47ADEF0B1DAF14B5000B225F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7114A391DB8C3700048DBDE /* SoundRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SoundRecorder.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F7B8A7161E0638FF003A1EE7 /* RipplTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipplTests.swift; sourceTree = "<group>"; };
+		F7B8A7181E06390D003A1EE7 /* RipplUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipplUITests.swift; sourceTree = "<group>"; };
+		F7B8A71F1E06394F003A1EE7 /* Rippl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rippl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B8A7211E06394F003A1EE7 /* Rippl-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rippl-iOS.h"; sourceTree = "<group>"; };
+		F7B8A7221E06394F003A1EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B8A7271E06394F003A1EE7 /* Rippl-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rippl-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B8A72C1E06394F003A1EE7 /* Rippl_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rippl_iOSTests.swift; sourceTree = "<group>"; };
+		F7B8A72E1E06394F003A1EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B8A7361E063969003A1EE7 /* Rippl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rippl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,23 +92,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7B8A71B1E06394F003A1EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B8A7241E06394F003A1EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B8A7281E06394F003A1EE7 /* Rippl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		477113241DAF35C600EB499B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				477113251DAF35D500EB499B /* Rippl.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		47ADEEDD1DAF14B4000B225F = {
 			isa = PBXGroup;
 			children = (
 				47ADEEE81DAF14B5000B225F /* Rippl */,
 				47ADEEFD1DAF14B5000B225F /* RipplTests */,
 				47ADEF081DAF14B5000B225F /* RipplUITests */,
+				F7B8A7201E06394F003A1EE7 /* Rippl-iOS */,
+				F7B8A72B1E06394F003A1EE7 /* Rippl-iOSTests */,
 				47ADEEE71DAF14B5000B225F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +128,8 @@
 				47ADEEE61DAF14B5000B225F /* Rippl.app */,
 				47ADEEFA1DAF14B5000B225F /* RipplTests.xctest */,
 				47ADEF051DAF14B5000B225F /* RipplUITests.xctest */,
+				F7B8A71F1E06394F003A1EE7 /* Rippl.framework */,
+				F7B8A7271E06394F003A1EE7 /* Rippl-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +140,6 @@
 				47ADEEE91DAF14B5000B225F /* AppDelegate.swift */,
 				47ADEEEB1DAF14B5000B225F /* ViewController.swift */,
 				F7114A391DB8C3700048DBDE /* SoundRecorder.swift */,
-				477113241DAF35C600EB499B /* Views */,
 				47ADEEED1DAF14B5000B225F /* Main.storyboard */,
 				47ADEEF01DAF14B5000B225F /* Assets.xcassets */,
 				47ADEEF21DAF14B5000B225F /* LaunchScreen.storyboard */,
@@ -124,8 +151,8 @@
 		47ADEEFD1DAF14B5000B225F /* RipplTests */ = {
 			isa = PBXGroup;
 			children = (
-				47ADEEFE1DAF14B5000B225F /* RippleTests.swift */,
 				47ADEF001DAF14B5000B225F /* Info.plist */,
+				F7B8A7161E0638FF003A1EE7 /* RipplTests.swift */,
 			);
 			path = RipplTests;
 			sourceTree = "<group>";
@@ -133,13 +160,43 @@
 		47ADEF081DAF14B5000B225F /* RipplUITests */ = {
 			isa = PBXGroup;
 			children = (
-				47ADEF091DAF14B5000B225F /* RippleUITests.swift */,
 				47ADEF0B1DAF14B5000B225F /* Info.plist */,
+				F7B8A7181E06390D003A1EE7 /* RipplUITests.swift */,
 			);
 			path = RipplUITests;
 			sourceTree = "<group>";
 		};
+		F7B8A7201E06394F003A1EE7 /* Rippl-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8A7221E06394F003A1EE7 /* Info.plist */,
+				F7B8A7211E06394F003A1EE7 /* Rippl-iOS.h */,
+				F7B8A7361E063969003A1EE7 /* Rippl.swift */,
+			);
+			path = "Rippl-iOS";
+			sourceTree = "<group>";
+		};
+		F7B8A72B1E06394F003A1EE7 /* Rippl-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8A72E1E06394F003A1EE7 /* Info.plist */,
+				F7B8A72C1E06394F003A1EE7 /* Rippl_iOSTests.swift */,
+			);
+			path = "Rippl-iOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7B8A71C1E06394F003A1EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B8A72F1E06394F003A1EE7 /* Rippl-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		47ADEEE51DAF14B4000B225F /* Rippl */ = {
@@ -195,13 +252,49 @@
 			productReference = 47ADEF051DAF14B5000B225F /* RipplUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F7B8A71E1E06394F003A1EE7 /* Rippl-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B8A7301E06394F003A1EE7 /* Build configuration list for PBXNativeTarget "Rippl-iOS" */;
+			buildPhases = (
+				F7B8A71A1E06394F003A1EE7 /* Sources */,
+				F7B8A71B1E06394F003A1EE7 /* Frameworks */,
+				F7B8A71C1E06394F003A1EE7 /* Headers */,
+				F7B8A71D1E06394F003A1EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rippl-iOS";
+			productName = "Rippl-iOS";
+			productReference = F7B8A71F1E06394F003A1EE7 /* Rippl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B8A7261E06394F003A1EE7 /* Rippl-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B8A7331E06394F003A1EE7 /* Build configuration list for PBXNativeTarget "Rippl-iOSTests" */;
+			buildPhases = (
+				F7B8A7231E06394F003A1EE7 /* Sources */,
+				F7B8A7241E06394F003A1EE7 /* Frameworks */,
+				F7B8A7251E06394F003A1EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B8A72A1E06394F003A1EE7 /* PBXTargetDependency */,
+			);
+			name = "Rippl-iOSTests";
+			productName = "Rippl-iOSTests";
+			productReference = F7B8A7271E06394F003A1EE7 /* Rippl-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		47ADEEDE1DAF14B4000B225F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jean-Étienne";
 				TargetAttributes = {
@@ -213,14 +306,27 @@
 					47ADEEF91DAF14B5000B225F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = N44EJ7YB22;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 47ADEEE51DAF14B4000B225F;
 					};
 					47ADEF041DAF14B5000B225F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = N44EJ7YB22;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 47ADEEE51DAF14B4000B225F;
+					};
+					F7B8A71E1E06394F003A1EE7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = N44EJ7YB22;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					F7B8A7261E06394F003A1EE7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = N44EJ7YB22;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -240,6 +346,8 @@
 				47ADEEE51DAF14B4000B225F /* Rippl */,
 				47ADEEF91DAF14B5000B225F /* RipplTests */,
 				47ADEF041DAF14B5000B225F /* RipplUITests */,
+				F7B8A71E1E06394F003A1EE7 /* Rippl-iOS */,
+				F7B8A7261E06394F003A1EE7 /* Rippl-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +377,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7B8A71D1E06394F003A1EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B8A7251E06394F003A1EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,8 +398,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477113261DAF35D500EB499B /* Rippl.swift in Sources */,
 				47ADEEEC1DAF14B5000B225F /* ViewController.swift in Sources */,
+				F7B8A7381E0639BD003A1EE7 /* Rippl.swift in Sources */,
 				F7114A3A1DB8C3700048DBDE /* SoundRecorder.swift in Sources */,
 				47ADEEEA1DAF14B5000B225F /* AppDelegate.swift in Sources */,
 			);
@@ -287,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47ADEEFF1DAF14B5000B225F /* RippleTests.swift in Sources */,
+				F7B8A7171E0638FF003A1EE7 /* RipplTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +417,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47ADEF0A1DAF14B5000B225F /* RippleUITests.swift in Sources */,
+				F7B8A7191E06390D003A1EE7 /* RipplUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B8A71A1E06394F003A1EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B8A7371E063969003A1EE7 /* Rippl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B8A7231E06394F003A1EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B8A72D1E06394F003A1EE7 /* Rippl_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +449,11 @@
 			isa = PBXTargetDependency;
 			target = 47ADEEE51DAF14B4000B225F /* Rippl */;
 			targetProxy = 47ADEF061DAF14B5000B225F /* PBXContainerItemProxy */;
+		};
+		F7B8A72A1E06394F003A1EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B8A71E1E06394F003A1EE7 /* Rippl-iOS */;
+			targetProxy = F7B8A7291E06394F003A1EE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -460,11 +603,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = RipplTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rippl.app/Rippl";
 			};
@@ -475,6 +620,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = RipplTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,11 +635,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = RipplUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeanetienne.RipplUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Rippl;
 			};
@@ -503,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = N44EJ7YB22;
 				INFOPLIST_FILE = RipplUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +659,87 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Rippl;
+			};
+			name = Release;
+		};
+		F7B8A7311E06394F003A1EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Rippl-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Rippl-iOS";
+				PRODUCT_NAME = Rippl;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7B8A7321E06394F003A1EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Rippl-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Rippl-iOS";
+				PRODUCT_NAME = Rippl;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7B8A7341E06394F003A1EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = "Rippl-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Rippl-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F7B8A7351E06394F003A1EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N44EJ7YB22;
+				INFOPLIST_FILE = "Rippl-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.jeanetienne.Rippl-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -548,6 +778,24 @@
 			buildConfigurations = (
 				47ADEF151DAF14B5000B225F /* Debug */,
 				47ADEF161DAF14B5000B225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B8A7301E06394F003A1EE7 /* Build configuration list for PBXNativeTarget "Rippl-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B8A7311E06394F003A1EE7 /* Debug */,
+				F7B8A7321E06394F003A1EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B8A7331E06394F003A1EE7 /* Build configuration list for PBXNativeTarget "Rippl-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B8A7341E06394F003A1EE7 /* Debug */,
+				F7B8A7351E06394F003A1EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
