@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class Rippl: UIView {
+public class Rippl: UIView {
 
     @IBInspectable public var fillColor: UIColor = UIColor.black.withAlphaComponent(0.3) {
         didSet {
@@ -31,7 +31,7 @@ class Rippl: UIView {
 
     private var bezierLayer: CAShapeLayer
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         bezierLayer = CAShapeLayer()
         bezierLayer.zPosition = 1
 
@@ -49,7 +49,7 @@ class Rippl: UIView {
         self.backgroundColor = UIColor.clear
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         let bezierPath = UIBezierPath.init(ovalIn: bounds)
         bezierLayer.path = bezierPath.cgPath
         bezierLayer.fillColor = fillColor.cgColor
