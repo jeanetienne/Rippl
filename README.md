@@ -7,7 +7,7 @@
 
 UI element showing a growing circle, reminiscent of a ripple in a pond.
 
-A Rippl is a simple UIView sublcass which draws an ellipse (in most cases a circle) within its frame and has 2 built-in animations. You can call an "impact ripple" animation to create an additional growing ellipse behind the original one, or you can call a "gain" animation that grows the original view according to the value of the gain.
+A Rippl is a simple UIView sublcass which draws an ellipse (in most cases a circle) within its frame and has 2 built-in animations. An "impact ripple" animation to create an additional growing ellipse behind the original one, and a "gain" animation that grows the original view according to the value of the gain.
 
 ![Impact Ripple animation](https://raw.githubusercontent.com/jeanetienne/rippl/master/impact.gif)
 ![Gain animation](https://raw.githubusercontent.com/jeanetienne/rippl/master/gain.gif)
