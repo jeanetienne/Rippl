@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source            = { 
     :git => "https://github.com/jeanetienne/Rippl.git", 
     :tag => "#{s.version}" }
-  s.source_files      = "Rippl-iOS/Rippl.swift"
+  s.source_files      = "Sources/Rippl/Rippl.swift"
   s.frameworks        = "UIKit"
 
   s.ios.deployment_target = "8.0"

@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "Rippl",
-  platforms: [.iOS(.v10)],
+  platforms: [.iOS(.v8)],
   products: [
     .library(
       name: "Rippl",
