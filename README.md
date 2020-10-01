@@ -74,6 +74,14 @@ github "jeanetienne/Rippl"
 
 Run `carthage update` to build the framework and drag the built `Rippl.framework` into your Xcode project.
 
+### Swift Package Manager
+
+You can add Rippl as a Swift Package using Xcode 9.0+. More info about Swift Packages [here](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
+
+```
+https://github.com/jeanetienne/Rippl
+```
+
 ### Manually
 
 If you prefer not to use either of the aforementioned dependency managers, you can integrate Rippl into your project manually.
